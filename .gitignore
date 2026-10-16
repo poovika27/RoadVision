@@ -1,0 +1,17 @@
+# environments, data, weights, runtime output (large / regenerable)
+.venv/
+__pycache__/
+data/
+models/*.keras
+!models/final.keras
+models/*.pt
+external/
+web_runs/
+*.zip
+*.mp4
+*.avi
+*.log
+outputs/samples.jpg
+outputs/rdd_classes.jpg
+outputs/web_test/
+outputs/last_run.txt

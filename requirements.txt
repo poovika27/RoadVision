@@ -1,0 +1,6 @@
+# inference / website
+tensorflow>=2.16,<2.21
+flask>=3.0
+opencv-python-headless
+imageio-ffmpeg
+numpy

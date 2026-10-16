@@ -1,0 +1,6 @@
+-r requirements.txt
+scikit-learn
+matplotlib
+seaborn
+pillow
+kaggle
