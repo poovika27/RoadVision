@@ -22,16 +22,6 @@ A pretrained RDD2022 YOLOv8m used as a classifier scored only 44.5% on the same 
 **Video-level:** the website works on tiles of video frames, so its real-world accuracy differs from the crop numbers above.
 On unseen RDD2022 frames, frame-level pothole detection was about 75% accurate; the video verdict needs several frames to agree.
 
-## Quick start (run the website)
-
-```bash
-git clone https://github.com/mourishantony/pothole-cnn.git
-cd pothole-cnn
-python -m venv .venv
-.venv\Scripts\activate          # Linux/macOS: source .venv/bin/activate
-pip install -r requirements.txt
-python app.py
-```
 
 Open http://127.0.0.1:5000, choose a video (mp4/avi/mov/mkv/webm, up to 300 MB) and click **Analyse video**.
 You get a verdict (pothole detected / not), an annotated video (red = pothole, orange = crack) and the strongest pothole frame.
